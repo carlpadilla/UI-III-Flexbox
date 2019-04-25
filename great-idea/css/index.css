@@ -176,61 +176,71 @@ a:hover {
 
 /*************** Call to Action ****************/
 
-header {
-  display: block;
+div.heading {
+  height: 500px;
+  padding-bottom: 150px;
 }
 
 .heading {
-  padding: 0 0 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-size: 4rem;
+  /* background-color: red; */
 }
 
 .cta {
-  display: inline-block;
-  box-sizing: border-box;
-  font-size: 4rem;
-  /* background-color: red; */
-  height: 300px;
-  width: 300px;
-}
-
-.code-image {
-  margin-left: 150px;
-  padding: 40px;
-  box-sizing: border-box;
+  align-self: center;
 }
 
 h1,
 .cta {
   text-align: center;
-  margin-left: 100px;
+  margin-left: 50px;
   padding: 40px;
 }
 
 button {
   background-color: white;
   border: 1px solid black;
+  width: 150px;
   border-radius: 3px;
-  margin-left: 200px;
+  margin-left: 150px;
   padding: 6px 25px;
 }
 
-/* Mid section */
+div.button {
+  margin-top: -150px;
+}
 
-.features,
-.about {
-  display: inline-block;
-  width: 440px;
+button:hover {
+  background-color: gray;
+}
+
+/*************** Mid Section ****************/
+
+.top-section {
+  display: flex;
+  flex-direction: row;
   height: 150px;
   padding: 20px;
 }
 
-.services,
-.product,
-.vision {
-  display: inline-block;
-  width: 250px;
+.bottom-section {
+  display: flex;
+  flex-direction: row;
   height: 150px;
-  padding: 30px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+/* Continue working here */
+.mid-section h3 p {
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+  padding: 20px;
+  margin-bottom: 40px;
 }
 
 .contact {
