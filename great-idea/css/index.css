@@ -235,12 +235,32 @@ button:hover {
 }
 
 /* Continue working here */
-.mid-section h3 p {
+
+.services h2 {
+  font-size: 24px;
+}
+
+.mid-section {
+  /* background-color: red; */
   display: flex;
-  flex-direction: row;
-  width: 150px;
-  padding: 20px;
-  margin-bottom: 40px;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.flex-item {
+  background: gray;
+  border: 1px solid black;
+  padding: 10px;
+  width: 400px;
+  height: 200px;
+  margin: 7px;
+  /* text-align: center; */
+}
+
+div.flex-item {
+  padding: 10px;
 }
 
 .contact {
