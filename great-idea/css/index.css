@@ -154,7 +154,6 @@ h5 {
 .container {
   width: 900px;
   margin: auto;
-  /* border: 1px solid black; */
 }
 
 /*************** Navigation ****************/
@@ -185,7 +184,7 @@ div.services-page2 p {
 }
 
 hr {
-  width: 880px;
+  width: 900px;
   border: 1px solid black;
 }
 /*************** Call to Action ****************/
@@ -200,7 +199,6 @@ div.heading {
   flex-wrap: wrap;
   flex-direction: row;
   font-size: 4rem;
-  /* background-color: red; */
 }
 
 .cta {
@@ -248,33 +246,35 @@ button:hover {
   margin-bottom: 40px;
 }
 
-/* Continue working here */
-
 .services h2 {
   font-size: 24px;
 }
 
 .mid-section {
-  /* background-color: red; */
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
-  align-items: flex-start;
-  padding: 10px;
+  align-items: center;
 }
 
 .flex-item {
-  background: gray;
+  background: #f4f3f4;
   border: 1px solid black;
   padding: 10px;
   width: 400px;
   height: 200px;
-  /* margin: 7px; */
-  /* text-align: center; */
+  flex-grow: 1;
+  margin: 20px;
 }
 
-div.flex-item {
-  padding: 10px;
+.flex-item.right {
+  margin-right: 0;
+}
+.flex-item.left {
+  margin-left: 0;
+}
+
+.learn-more {
+  margin: 15px 0;
 }
 
 .contact {
